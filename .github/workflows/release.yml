@@ -77,6 +77,8 @@ jobs:
           - target: x86_64-pc-windows-gnu
             os: windows-latest
             name: mhrv-rs-windows-amd64
+          - target: armv7-unknown-linux-musleabi
+            os: ubuntu-latest
           # i686-pc-windows-msvc target was attempted in v1.7.7-v1.7.10
           # to support Windows 7 32-bit users (#272, #318). Removed in
           # v1.7.11 because keeping it on Rust 1.77.2 (last Win7-stable)
